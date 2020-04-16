@@ -1,0 +1,39 @@
+$prefix: ".risovat";
+
+#{$prefix}-arrow-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  justify-self: center;
+  padding: 0;
+  width: 56.5px;
+  height: 56.5px;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  background: #fff;
+  color: #000000;
+  font-size: 2rem;
+  &:hover, &:focus {
+    background: #fff;
+    border: 3px solid #000000;
+    color: #000000;
+    box-shadow: none;
+  }
+}
+
+#{$prefix}-central-button {
+  align-self: center;
+  justify-self: center;
+  width: 106px;
+  height: 106px;
+  border: 1px solid rgba(212, 211, 210, 0.13);
+  background: #fff;
+  border-radius: 50%;
+  filter: drop-shadow(0 10px 0 rgb(212, 211, 210));
+  &:hover {
+    background: #fff;
+    border: 1px solid rgba(212, 211, 210, 0.13);
+    filter: drop-shadow( 0 10px 0  #444);
+  }
+}

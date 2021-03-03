@@ -20,7 +20,7 @@
     "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "moveable": "^0.16.3",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "vee-validate": "^3.0.11",
     "vue": "^2.6.10",
